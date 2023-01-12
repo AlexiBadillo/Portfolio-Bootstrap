@@ -6,4 +6,10 @@
 body {
     background-color: #000;
     color: #fff;
+    padding: 15px;
+}
+.one {
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid #fff;
 }
