@@ -13,3 +13,13 @@ body {
     font-size: 30px;
     border: 1px solid #fff;
 }
+.two {
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid #48e;
+}
+.tres {
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid crimson;
+}
