@@ -10,6 +10,8 @@
     <meta name="keywords" content="HTML, CSS, Bootstrap, Javascript, React">
     <!--Añadiendo Bootstrap desde cdn primer link parte superior-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- Añadiendo iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <!--Añadiendo el css-->
     <link rel="stylesheet" href="styles.css">
     <!-- Titulo     -->
@@ -58,10 +60,175 @@
             <h2>I design web sites and write programming articles</h2>
         </div>
         <div class="hero-inferior">
-
+          <img class="hero-inferior-img img-fluid" src="images/hero-inferior.svg" alt="Monitor, laptop, logos HTML, CSS and JavaScript">
         </div>
     </section>
-    
+    <!-- About Me -->
+    <section class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Alexi Badillo</h2>
+        <p class="seccion-texto ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, vel similique rerum commodi, aspernatur recusandae rem doloremque labore illo officiis voluptatem quidem, ipsum ex deleniti reiciendis eveniet vitae omnis qui.</p>
+      </div>
+    </section>
+    <!-- Experience -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo web</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum repudiandae impedit debitis hic necessitatibus enim. Deserunt fugiat accusamus quod pariatur incidunt, esse debitis, veniam odit veritatis delectus numquam, illo vel!</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">Javascript</span>
+              <span class="badge text-bg-primary">React</span>
+            </div>
+          </div>
+          <!-- Articulos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-pencil-square"></i>
+            <p class="experiencia-titulo">Articulos</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, exercitationem. Eveniet ea aperiam et culpa ad, quae ex, suscipit rem nihil ipsum mollitia quaerat illum, quos nobis hic impedit dicta?</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Escribir</span>
+              <span class="badge text-bg-primary">Editar</span>
+              <span class="badge text-bg-primary">Blogs</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-book"></i>
+            <p class="experiencia-titulo">Estudiante</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat placeat mollitia facilis saepe illo porro eos quae eius ullam non molestias numquam, animi repellat consequuntur aperiam, sapiente provident adipisci perspiciatis!</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">freeCodeCamp</span>
+              <span class="badge text-bg-primary">Desarrollo web</span>
+              <span class="badge text-bg-primary">React</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Proyectos     -->
+    <section class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis proyectos</h2>
+      <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente</h3>
+      <!-- Galeria de proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="images/proyecto1.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 1</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org/learn" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>            
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="images/proyecto2.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 2</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org/learn" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>            
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="images/proyecto3.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 3</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org/learn" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>            
+          </div>
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="images/proyecto4.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 4</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org/learn" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>            
+          </div>
+          <!-- Proyecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="images/proyecto5.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 5</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org/learn" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>            
+          </div>
+          <!-- Proyecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="images/proyecto6.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 6</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org/learn" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>            
+          </div>
+        </div>
+      </div>
+      <a href="https://www.youtube.com/watch?v=6J5VVSsHJ38&list=RDMM6J5VVSsHJ38&start_radio=1" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más proyectos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
 
     <!--Añadiendo Bootstrap script de JavaScript en la parte donde van los scripts por recomendación del propio programa-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
