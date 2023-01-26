@@ -20,8 +20,8 @@
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <!-- Font Family Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
     
 </head>
 <body>
@@ -228,6 +228,89 @@
           <i class="bi bi-arrow-right-circle-fill"></i>
         </button>
       </a>
+    </section>
+    <!-- Articulos -->
+    <section class="articulos justify-content-start">
+      <h2 class="seccion-titulo texto-negro">Articulos</h2>
+      <div class="card">
+        <div class="card-header">
+          Más recientes
+        </div>
+        <ul class="list-group list-group-flush">
+          <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">Aprende HTML</li>
+          </a>
+          <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">Aprende CSS.</li>
+          </a>
+          <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">Aprende JavaScript.</li>
+          </a>
+          <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">Aprende React.</li>
+          </a>
+          <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">Aprende Bootstrap.</li>
+          </a>
+        </ul>
+      </div>
+      <a href="https://www.youtube.com/watch?v=6J5VVSsHJ38&list=RDMM6J5VVSsHJ38&start_radio=1" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más proyectos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+    <!-- Testimonios -->
+    <section class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion">Estos son algunos testimonios de mis colegancios...</h3>
+      <!-- Carousel -->
+      <div id="testimonios-carrusel" class="carousel carrusel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <!-- First item -->
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="images/cliente1.svg" alt="Primer cliente">
+              <p class="testimonio-texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore voluptas quo sit error ipsum sunt veritatis.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Gino</p>
+                <p class="cargo">Gerente de proyectos en desarrollo web.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Second item -->
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="images/cliente2.svg" alt="Segundo cliente">
+              <p class="testimonio-texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore voluptas quo sit error ipsum sunt veritatis.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Nora</p>
+                <p class="cargo">Gerente de diseña mi página web.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Third item -->
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="images/cliente3.svg" alt="Tercer cliente">
+              <p class="testimonio-texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore voluptas quo sit error ipsum sunt veritatis.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Leonardo</p>
+                <p class="cargo">Director de Aprende a programar.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
     </section>
 
     <!--Añadiendo Bootstrap script de JavaScript en la parte donde van los scripts por recomendación del propio programa-->
